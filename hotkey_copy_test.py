@@ -10,7 +10,7 @@ import google.generativeai as genai
 import queue
 
 # --- Gemini API Setup ---
-GEMINI_API_KEY = "AIzaSyCewoBcQnfBLIPZALL-ezqV_pnPovNEPZY"  # <-- Replace with your actual API key
+GEMINI_API_KEY = ""  # <-- Replace with your actual API key
 genai.configure(api_key=GEMINI_API_KEY)
 
 # Global state for pause/play
